@@ -1,7 +1,7 @@
 import {async, TestBed} from '@angular/core/testing';
 import {AppComponent} from './app.component';
+import {FormsModule} from '@angular/forms';
 import {WebcamComponent} from 'ngx-webcam';
-
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -10,6 +10,9 @@ describe('AppComponent', () => {
         AppComponent,
         WebcamComponent
       ],
+      imports: [
+        FormsModule
+      ]
     }).compileComponents();
   }));
   it('should create the app', async(() => {
