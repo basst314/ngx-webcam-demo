@@ -1,4 +1,4 @@
-# ngx-webcam
+# ngx-webcam-demo
 This is a simple Demo-Project for <a href="https://github.com/basst314/ngx-webcam">ngx-webcam</a>.
 
 It shows how to use the Webcam-Component from `ngx-webcam` in a simple use-case, including parameters and event-bindings.
